@@ -1,0 +1,331 @@
+@media only screen and (max-width: 768px) {
+  .noMobile {
+    display: none;
+  }
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+}
+header {
+    background-color: #ffc917;
+}
+a, ul{
+    text-decoration: none;
+    color: black;
+    list-style-type: none;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-size: small;
+    
+}
+#getStarted, #getStarted a{
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+    border-color: #000000;
+    padding: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: small;
+    display: inline-block;
+}
+#startReading {
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+    border-color: #000000;
+    padding-left: 30px ;
+    padding-right: 30px ;
+    padding-top: 8px ;
+    padding-bottom: 8px ;
+    margin-top: 10px;
+    font-size: small;
+    display: inline-block;
+    
+}
+#logo {
+    max-width: 80%;
+    margin-left: 20px;
+    
+}
+h1 {
+    font-size: xx-large;
+    font-family: 'Spectra', serif;
+    transform: scale(1.5);
+    transform-origin: top left;
+    font-weight: 600;
+    margin-bottom: 30px;
+    
+}
+
+#hero{
+    
+        margin-left: 20px;
+        margin-top: 60px;
+        margin-right: 20px
+        ;padding-bottom: 50px
+        ;padding-top: 50px
+    }
+
+nav {
+    transition: background-color 0.5s ease-in-out;
+    /*  */
+    background-color: #ffc917;
+    border-bottom: 2px solid #000000;
+   margin-left: 0px;
+   margin-right: 0px;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    /*  */
+     position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+#changeBgColor {
+    background-color: #ffc917;
+    transition: background-color 0.2s ease-in-out;
+}
+#changeBgColor.scrolled {
+      background-color: #ffffff;
+    }
+main {
+    border-top: 2px solid #000000;
+
+}
+#trending-section  {
+    display: flex;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-size: smaller;
+    font-weight: bold;
+transform: scale(0.8);
+transform-origin: left;
+}
+
+#trending-section span{
+    margin-left: 10px;
+    letter-spacing: 1.5px;
+}
+#trending-list {
+    margin-left: 20px;
+}
+.num {
+    font-weight: bolder;
+    opacity: 0.2;
+    font-size: larger;
+    margin-right: 15px;
+}
+.immagine {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.riga1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: center;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+
+.trending-name{
+    font-size: smaller;
+    font-weight: bold;
+    transform: scale(0.8);
+    transform-origin: left;
+    margin: 0px;
+    padding: 0px;
+    
+}
+.trending-items {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.immagineName{
+    display: flex;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+}
+.trending-title {
+    margin: 8px 0px;
+    font-size: smaller;
+    font-weight: bold;
+}
+.data-read {
+    transform: scale(0.8);
+    transform-origin: left;
+    margin: 0px;
+    
+    font-size: smaller;
+    opacity: 0.3;
+    gap: 150px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#discover{
+    border-top: 1px solid #0000001a;
+    
+}
+#discoverDiv{
+    border-bottom: 1px solid #0000001a;
+    margin-top: 50px;
+    margin-left: 20px;
+    padding-bottom: 20px;
+}
+#discoverDiv h5{
+    margin-left: 5px;
+    letter-spacing: 1.1px;
+    font-weight: bolder;
+    
+}
+
+#tag{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.discoverLi {
+    border: 1px solid rgba(0, 0, 0, 0.178);
+    padding: 5px 10px;
+    margin: 5px 5px;
+    color: #00000096;
+    font: bold;
+        font-size: smaller;
+
+}
+/*  */
+#discover2{
+    border-top: 1px solid #0000001a;
+    
+}
+#discoverDiv2{
+    /* border-bottom: 1px solid #0000001a; */
+    margin-top: 0px;
+    margin-left: 12px;
+    padding-bottom: 0px;
+}
+
+
+#tag2{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+}
+.discover2Li {
+    /* border: 1px solid rgba(0, 0, 0, 0.178); */
+    padding: 2px 5px;
+    margin: 2px 5px;
+    color: #00000096;
+    font: bold;
+    font-size: smaller;
+
+}
+/*  */
+.immagineB {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.poster {
+    width: 150px;
+}
+.riga1B {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: center;
+    flex-direction: row-reverse;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+
+.trending-nameB{
+    font-size: smaller;
+    font-weight: bold;
+    transform: scale(0.8);
+    transform-origin: left;
+    margin: 0px;
+    padding: 0px;
+    
+}
+.trending-itemsB {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.immagineNameB{
+    display: flex;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+}
+.trending-titleB {
+    margin: 8px 0px 0px 0px;
+    font-size: smaller;
+    font-weight: bold;
+
+}
+.preview {
+    font-size: smaller;
+        opacity: 0.5;
+        margin: 0px;
+        overflow: hidden;
+        padding: 0px;
+        
+
+}
+.data-readB {
+   transform: scale(0.8);
+    transform-origin: left;
+    margin-top: 5px;
+    font-size: smaller;
+    opacity: 0.5;
+    /* gap: 11px; */
+    display: flex;
+    position: relative;
+    opacity: 0.5;
+    width: 100%;
+    align-items: center;
+}
+.tema{
+   border-radius: 25%;
+   margin: 5px;
+   padding: 2px 7px;
+   background-color: #1a1a1a27;
+}
+.data-readB img{
+   position: static;
+  top: 0;
+  left: 0;
+  opacity: 1;
+}
+.bookmark{
+  margin-left: auto;
+}
